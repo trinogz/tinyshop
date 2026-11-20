@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="520" viewBox="0 0 1240 520">
+  <rect width="1240" height="520" fill="#f6f3ee"/>
+  <text x="40" y="42" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1c1917">TinyShop</text>
+  <text x="40" y="66" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="14" fill="#615d56">An order stores the service name, description, and price from the moment it is created.</text>
+
+  <!-- customers -->
+  <g transform="translate(40,168)">
+    <rect width="250" height="148" rx="12" fill="#fffcf8" stroke="#e4ddd2"/>
+    <text x="16" y="28" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f4b3a">customers</text>
+    <line x1="16" y1="40" x2="234" y2="40" stroke="#eee7dc"/>
+    <text x="16" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">id</text>
+    <text x="132" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">int</text>
+    <text x="234" y="64" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f4b3a">PK</text>
+    <text x="16" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">name</text>
+    <text x="132" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="16" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">email</text>
+    <text x="132" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="234" y="120" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f4b3a">UK</text>
+  </g>
+
+  <!-- orders -->
+  <g transform="translate(390,108)">
+    <rect width="400" height="292" rx="12" fill="#fffcf8" stroke="#e4ddd2"/>
+    <text x="16" y="28" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f4b3a">orders</text>
+    <line x1="16" y1="40" x2="384" y2="40" stroke="#eee7dc"/>
+    <text x="16" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">id</text>
+    <text x="210" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">int</text>
+    <text x="384" y="64" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f4b3a">PK</text>
+    <text x="16" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">customer_id</text>
+    <text x="210" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">int</text>
+    <text x="384" y="92" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#615d56">FK</text>
+    <text x="16" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">service_id</text>
+    <text x="210" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">int</text>
+    <text x="384" y="120" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#615d56">FK</text>
+    <text x="16" y="148" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">service_name</text>
+    <text x="210" y="148" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="384" y="148" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" fill="#1f4b3a">snapshot</text>
+    <text x="16" y="176" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">service_description</text>
+    <text x="210" y="176" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="384" y="176" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" fill="#1f4b3a">snapshot</text>
+    <text x="16" y="204" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">amount</text>
+    <text x="210" y="204" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">decimal</text>
+    <text x="384" y="204" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" fill="#1f4b3a">snapshot</text>
+    <text x="16" y="232" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">created_at</text>
+    <text x="210" y="232" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">datetime</text>
+    <text x="16" y="260" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">canceled</text>
+    <text x="210" y="260" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">bool</text>
+  </g>
+
+  <!-- services -->
+  <g transform="translate(900,154)">
+    <rect width="300" height="176" rx="12" fill="#fffcf8" stroke="#e4ddd2"/>
+    <text x="16" y="28" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1f4b3a">services</text>
+    <line x1="16" y1="40" x2="284" y2="40" stroke="#eee7dc"/>
+    <text x="16" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">id</text>
+    <text x="176" y="64" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">int</text>
+    <text x="284" y="64" text-anchor="end" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#1f4b3a">PK</text>
+    <text x="16" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">name</text>
+    <text x="176" y="92" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="16" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">description</text>
+    <text x="176" y="120" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">string</text>
+    <text x="16" y="148" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#1c1917">suggested_price</text>
+    <text x="176" y="148" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#8a847a">decimal</text>
+  </g>
+
+  <!-- customers ||--o{ orders -->
+  <line x1="290" y1="242" x2="318" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="318" y1="234" x2="318" y2="250" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="326" y1="234" x2="326" y2="250" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="326" y1="242" x2="366" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <circle cx="374" cy="242" r="6" fill="#f6f3ee" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="382" y1="242" x2="390" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="390" y1="242" x2="390" y2="230" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="390" y1="242" x2="390" y2="254" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="390" y1="230" x2="390" y2="254" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="382" y1="242" x2="390" y2="230" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="382" y1="242" x2="390" y2="254" stroke="#1c1917" stroke-width="1.4"/>
+  <text x="340" y="226" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" fill="#615d56">places</text>
+
+  <!-- services ||--o{ orders -->
+  <line x1="900" y1="242" x2="872" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="872" y1="234" x2="872" y2="250" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="864" y1="234" x2="864" y2="250" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="864" y1="242" x2="824" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <circle cx="816" cy="242" r="6" fill="#f6f3ee" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="808" y1="242" x2="800" y2="242" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="790" y1="230" x2="790" y2="254" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="800" y1="242" x2="790" y2="230" stroke="#1c1917" stroke-width="1.4"/>
+  <line x1="800" y1="242" x2="790" y2="254" stroke="#1c1917" stroke-width="1.4"/>
+  <text x="845" y="226" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12" fill="#615d56">referenced by</text>
+
+  <text x="620" y="460" text-anchor="middle" font-family="Liberation Sans, DejaVu Sans, Helvetica, Arial, sans-serif" font-size="13" fill="#615d56">One customer or service has many orders. Snapshot columns are not updated when the service changes.</text>
+</svg>
